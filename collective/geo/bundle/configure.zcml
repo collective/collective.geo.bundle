@@ -1,0 +1,24 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="collective.geo.bundle">
+
+    <include package="collective.geo.contentlocations" />
+    <include package="collective.geo.kml" />
+
+    <genericsetup:registerProfile
+        name="default"
+        title="Plone Maps (collective.geo)"
+        directory="profiles/default"
+        description='Extension profile for collective.geo.bundle'
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
+   <utility factory="collective.geo.bundle.profile.HiddenProfiles"
+           name="collective.geo.hiddenprofiles" />
+
+   <utility factory="collective.geo.bundle.profile.HiddenProducts"
+           name="collective.geo.hiddenproducts" />
+
+</configure>
