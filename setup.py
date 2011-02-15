@@ -29,6 +29,7 @@ setup(name='collective.geo.bundle',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'BeautifulSoup',
           'collective.geo.contentlocations',
           'collective.geo.kml',
           # -*- Extra requirements: -*-
