@@ -9,7 +9,8 @@ class HiddenProfiles(object):
     implements(INonInstallable)
 
     def getNonInstallableProfiles(self):
-        return  ['%s:default' % item for item in DEPENDENCIES]
+        _dependencies = ['%s:default' % item for item in DEPENDENCIES]
+        return _dependencies + ['collective.geo.kml:uninstall']
 
 
 class HiddenProducts(object):
