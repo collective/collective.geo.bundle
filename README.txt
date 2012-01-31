@@ -40,7 +40,7 @@ Requirements
 * Plone >= 4.0
 * zope.schema = 3.6.0 (z3c.form requirement)
 * plone.app.z3cform
-* `collective.geo.colorpicker <http://plone.org/products/collective.z3cform.colorpicker>`_
+* `collective.z3cform.colorpicker <http://plone.org/products/collective.z3cform.colorpicker>`_
 
 
 Installation
@@ -50,7 +50,7 @@ Add collective.geo.bundle to your buildout's list of eggs such as::
 
     [buildout]
     ...
-    eggs = 
+    eggs =
         collective.geo.bundle
     ...
 
