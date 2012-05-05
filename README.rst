@@ -61,6 +61,7 @@ You can find `a buildout example here <http://svn.plone.org/svn/collective/colle
 
 Contributors
 ------------
+
  * Giorgio Borelli - gborelli
  * Silvio Tomatis - silviot
  * Gerhard Weis - gweis
