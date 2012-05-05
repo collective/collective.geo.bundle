@@ -4,7 +4,10 @@ Changelog
 0.2 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Added buildout configuration
+- Refacrtorized package structure
+ [giacomos]
+
 
 
 0.1 (2011-03-06)

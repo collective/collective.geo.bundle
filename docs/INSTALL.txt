@@ -1,5 +1,5 @@
-collective.geo.bundle Installation
-=======================
+collective.geo Installation
+===========================
 
  * When you're reading this you have probably already run
    ``easy_install collective.geo.bundle``. Find out how to install setuptools

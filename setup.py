@@ -6,9 +6,8 @@ version = '0.1'
 setup(name='collective.geo.bundle',
       version=version,
       description="Plone Maps (collective.geo)",
-      long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
-      # Get more strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
+      long_description=open("README.rst").read() + "\n" +
+                       open(os.path.join("docs", "HISTORY.rst")).read(),
       classifiers=[
         "Framework :: Plone",
         "Topic :: Internet",
@@ -20,8 +19,8 @@ setup(name='collective.geo.bundle',
       author_email='giorgio@giorgioborelli.it',
       url='http://plone.org/products/collective.geo',
       license='GPL',
-      packages = find_packages('src'),
-      package_dir = {'': 'src'},
+      packages=find_packages('src'),
+      package_dir={'': 'src'},
       namespace_packages=['collective', 'collective.geo'],
       include_package_data=True,
       zip_safe=False,
