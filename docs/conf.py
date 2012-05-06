@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # Collective geo documentation build configuration file, created by
-# sphinx-quickstart on Sun May  6 00:44:04 2012.
+# sphinx-quickstart on Sun May  6 22:03:38 2012.
 #
 # This file is execfile()d with the current directory set to its containing dir.
 #
@@ -25,7 +25,7 @@ import sys, os
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = []
+extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.intersphinx', 'sphinx.ext.todo', 'sphinx.ext.coverage', 'repoze.sphinx.autointerface']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -214,3 +214,47 @@ man_pages = [
     ('index', 'collectivegeo', u'Collective geo Documentation',
      [u'Giorgio Borelli'], 1)
 ]
+
+
+# -- Options for Epub output ---------------------------------------------------
+
+# Bibliographic Dublin Core info.
+epub_title = u'Collective geo'
+epub_author = u'Giorgio Borelli'
+epub_publisher = u'Giorgio Borelli'
+epub_copyright = u'2012, Giorgio Borelli'
+
+# The language of the text. It defaults to the language option
+# or en if the language is not set.
+#epub_language = ''
+
+# The scheme of the identifier. Typical schemes are ISBN or URL.
+#epub_scheme = ''
+
+# The unique identifier of the text. This can be a ISBN number
+# or the project homepage.
+#epub_identifier = ''
+
+# A unique identification for the text.
+#epub_uid = ''
+
+# HTML files that should be inserted before the pages created by sphinx.
+# The format is a list of tuples containing the path and title.
+#epub_pre_files = []
+
+# HTML files shat should be inserted after the pages created by sphinx.
+# The format is a list of tuples containing the path and title.
+#epub_post_files = []
+
+# A list of files that should not be packed into the epub file.
+#epub_exclude_files = []
+
+# The depth of the table of contents in toc.ncx.
+#epub_tocdepth = 3
+
+# Allow duplicate toc entries.
+#epub_tocdup = True
+
+
+# Example configuration for intersphinx: refer to the Python standard library.
+intersphinx_mapping = {'http://docs.python.org/': None}

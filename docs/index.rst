@@ -13,6 +13,13 @@ Contents:
 
    howto.rst
 
+Packages:
+
+.. toctree::
+   :maxdepth: 1
+
+   package_geographer.rst
+
 
 Indices and tables
 ==================
@@ -20,4 +27,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-

@@ -6,7 +6,7 @@ if "%SPHINXBUILD%" == "" (
 	set SPHINXBUILD=sphinx-build
 )
 set BUILDDIR=/Users/giorgio/sviluppo/cgeo/bundle/docs
-set ALLSPHINXOPTS=-d %BUILDDIR%/doctrees %SPHINXOPTS% /Users/giorgio/sviluppo/cgeo/bundle/docs-source
+set ALLSPHINXOPTS=-d %BUILDDIR%/doctrees %SPHINXOPTS% /Users/giorgio/sviluppo/cgeo/bundle/docs
 if NOT "%PAPER%" == "" (
 	set ALLSPHINXOPTS=-D latex_paper_size=%PAPER% %ALLSPHINXOPTS%
 )
