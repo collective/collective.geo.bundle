@@ -6,12 +6,13 @@
 Welcome to Collective geo's documentation!
 ==========================================
 
-.. include:: ../README.rst
-
 Contents:
 
 .. toctree::
    :maxdepth: 2
+
+   howto.rst
+
 
 Indices and tables
 ==================
