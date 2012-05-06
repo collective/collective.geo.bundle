@@ -7,7 +7,7 @@ setup(name='collective.geo.bundle',
       version=version,
       description="Plone Maps (collective.geo)",
       long_description=open("README.rst").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.rst")).read(),
+                       open("HISTORY.rst").read(),
       classifiers=[
         "Framework :: Plone",
         "Topic :: Internet",
