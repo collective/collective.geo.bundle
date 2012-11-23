@@ -1,5 +1,4 @@
 from setuptools import setup, find_packages
-import os
 
 version = '0.1'
 
@@ -31,6 +30,12 @@ setup(name='collective.geo.bundle',
           'collective.geo.kml',
           # -*- Extra requirements: -*-
       ],
+      extras_require={
+          'dexterity': [
+              'plone.app.dexterity',
+              'collective.geo.behaviour'
+          ]
+      },
       entry_points="""
       # -*- Entry points: -*-
 
