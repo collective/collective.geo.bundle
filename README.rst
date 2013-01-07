@@ -57,7 +57,7 @@ and run the buildout. Start Zope, go to Site Setup -> Add-on Products in your Pl
 Documentation
 -------------
 
-The package is documented at 'collectivegeo.readthedocs.org <http://collectivegeo.readthedocs.org/>'.
+The package is documented at `collectivegeo.readthedocs.org <http://collectivegeo.readthedocs.org/>`_.
 The sourcecode for this documentation resides in the docs folder of this
 package, please contribute.
 
