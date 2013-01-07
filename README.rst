@@ -5,22 +5,22 @@ collective.geo allows to geo-reference Plone content types and to display this i
 collective.geo bundle is composed by the following packages:
 
 `collective.geo.geographer <http://plone.org/products/collective.geo.geographer>`_
-    provides geo annotation for Plone.
+    provides geo annotation for Plone. `(repository) <https://github.com/collective/collective.geo.geographer>`_
 
 `collective.geo.openlayers <http://plone.org/products/collective.geo.openlayers>`_
-    enables openlayers machinery into Plone.
+    enables openlayers machinery into Plone. `(repository) <https://github.com/collective/collective.geo.openlayers>`_
 
 `collective.geo.settings <http://plone.org/products/collective.geo.settings>`_
-    provides some utility to store settings of collective.geo packages.
+    provides some utility to store settings of collective.geo packages. `(repository) <https://github.com/collective/collective.geo.settings>`_
 
 `collective.geo.mapwidget <http://plone.org/products/collective.geo.mapwidget>`_
-    provides some handy page macros and adapters to easily manage multiple maps on one page.
+    provides some handy page macros and adapters to easily manage multiple maps on one page. `(repository) <https://github.com/collective/collective.geo.mapwidget>`_
 
 `collective.geo.contentlocations <http://plone.org/products/collective.geo.contentlocations>`_
-    provides a GUI for collective.geo.geographer. It provides some simple forms to add geographical coordinates to Plone content types.
+    provides a GUI for collective.geo.geographer. It provides some simple forms to add geographical coordinates to Plone content types. `(repository) <https://github.com/collective/collective.geo.contentlocations>`_
 
 `collective.geo.kml <http://plone.org/products/collective.geo.kml>`_
-    provides KML views for georeferenced objects, allowing Plone content types to be visualized in Google Earth.
+    provides KML views for georeferenced objects, allowing Plone content types to be visualized in Google Earth. `(repository) <https://github.com/collective/collective.geo.kml>`_
 
 
 To display the maps, **collective.geo** takes advantage of `Openlayers <http://www.openlayers.org>`_, a JavaScript library for displaying map data in web browsers, with no server-side dependencies.
