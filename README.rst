@@ -33,8 +33,6 @@ As a default map source we can select `OpenStreetMap <http://www.openstreetmap.o
 Requirements
 ------------
 
-* libgeos_c (2.2.3 or 3.0.0+)
-* `Shapely <http://trac.gispython.org/lab/wiki/Shapely>`_
 * BeautifulSoup (geopy)
 * geopy
 * Plone >= 4.0
@@ -56,7 +54,6 @@ Add collective.geo.bundle to your buildout's list of eggs such as::
 
 and run the buildout. Start Zope, go to Site Setup -> Add-on Products in your Plone site and install the Plone Maps (collective.geo) product.
 
-You can find `a buildout example here <http://svn.plone.org/svn/collective/collective.geo.bundle/buildout/>`_
 
 
 Contributors
