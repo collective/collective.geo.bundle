@@ -54,6 +54,12 @@ Add collective.geo.bundle to your buildout's list of eggs such as::
 
 and run the buildout. Start Zope, go to Site Setup -> Add-on Products in your Plone site and install the Plone Maps (collective.geo) product.
 
+Documentation
+-------------
+
+The package is documented at 'collectivegeo.readthedocs.org <http://collectivegeo.readthedocs.org/>'.
+The sourcecode for this documentation resides in the docs folder of this
+package, please contribute.
 
 
 Contributors
@@ -64,3 +70,4 @@ Contributors
 * Gerhard Weis - gweis
 * David Beitey - davidjb
 * Adam Tang - adam139
+* Christian Ledermann - cleder
