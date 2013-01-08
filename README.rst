@@ -5,22 +5,22 @@ collective.geo allows to geo-reference Plone content types and to display this i
 collective.geo bundle is composed by the following packages:
 
 `collective.geo.geographer <http://plone.org/products/collective.geo.geographer>`_
-    provides geo annotation for Plone.
+    provides geo annotation for Plone. `(repository) <https://github.com/collective/collective.geo.geographer>`_
 
 `collective.geo.openlayers <http://plone.org/products/collective.geo.openlayers>`_
-    enables openlayers machinery into Plone.
+    enables openlayers machinery into Plone. `(repository) <https://github.com/collective/collective.geo.openlayers>`_
 
 `collective.geo.settings <http://plone.org/products/collective.geo.settings>`_
-    provides some utility to store settings of collective.geo packages.
+    provides some utility to store settings of collective.geo packages. `(repository) <https://github.com/collective/collective.geo.settings>`_
 
 `collective.geo.mapwidget <http://plone.org/products/collective.geo.mapwidget>`_
-    provides some handy page macros and adapters to easily manage multiple maps on one page.
+    provides some handy page macros and adapters to easily manage multiple maps on one page. `(repository) <https://github.com/collective/collective.geo.mapwidget>`_
 
 `collective.geo.contentlocations <http://plone.org/products/collective.geo.contentlocations>`_
-    provides a GUI for collective.geo.geographer. It provides some simple forms to add geographical coordinates to Plone content types.
+    provides a GUI for collective.geo.geographer. It provides some simple forms to add geographical coordinates to Plone content types. `(repository) <https://github.com/collective/collective.geo.contentlocations>`_
 
 `collective.geo.kml <http://plone.org/products/collective.geo.kml>`_
-    provides KML views for georeferenced objects, allowing Plone content types to be visualized in Google Earth.
+    provides KML views for georeferenced objects, allowing Plone content types to be visualized in Google Earth. `(repository) <https://github.com/collective/collective.geo.kml>`_
 
 
 To display the maps, **collective.geo** takes advantage of `Openlayers <http://www.openlayers.org>`_, a JavaScript library for displaying map data in web browsers, with no server-side dependencies.
@@ -33,8 +33,6 @@ As a default map source we can select `OpenStreetMap <http://www.openstreetmap.o
 Requirements
 ------------
 
-* libgeos_c (2.2.3 or 3.0.0+)
-* `Shapely <http://trac.gispython.org/lab/wiki/Shapely>`_
 * BeautifulSoup (geopy)
 * geopy
 * Plone >= 4.0
@@ -56,7 +54,12 @@ Add collective.geo.bundle to your buildout's list of eggs such as::
 
 and run the buildout. Start Zope, go to Site Setup -> Add-on Products in your Plone site and install the Plone Maps (collective.geo) product.
 
-You can find `a buildout example here <http://svn.plone.org/svn/collective/collective.geo.bundle/buildout/>`_
+Documentation
+-------------
+
+The package is documented at `collectivegeo.readthedocs.org <http://collectivegeo.readthedocs.org/>`_.
+The sourcecode for this documentation resides in the docs folder of this
+package, please contribute.
 
 
 Contributors
@@ -67,3 +70,4 @@ Contributors
 * Gerhard Weis - gweis
 * David Beitey - davidjb
 * Adam Tang - adam139
+* Christian Ledermann - cleder
