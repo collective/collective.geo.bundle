@@ -62,6 +62,13 @@ The sourcecode for this documentation resides in the docs folder of this
 package, please contribute.
 
 
+Mostly Harmless
+---------------
+
+.. image:: https://secure.travis-ci.org/collective/collective.geo.bundle.png
+    :target: http://travis-ci.org/collective/collective.geo.bundle
+
+
 Contributors
 ------------
 
