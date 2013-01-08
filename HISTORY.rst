@@ -4,17 +4,13 @@ Changelog
 0.2 (unreleased)
 ----------------
 
+- Added travis-ci configuration
 - Added buildout configuration for Dexterity
-  [gborelli]
-
 - Fixed tests section in devel.cfg
-  [gborelli]
-
 - Added extras_requires in setup.py to use g.ceo with Dexterity
   [gborelli]
 
 - Added buildout configuration
-
 - Refacrtorized package structure
  [giacomos]
 
