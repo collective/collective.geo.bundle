@@ -62,6 +62,12 @@ The sourcecode for this documentation resides in the docs folder of this
 package, please contribute.
 
 
+Bug Reports
+-----------
+
+* <https://github.com/collective/collective.geo.bundle/issues/>`_
+
+
 Mostly Harmless
 ---------------
 
