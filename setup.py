@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '0.1'
+version = '0.2dev'
 
 setup(name='collective.geo.bundle',
       version=version,
@@ -8,11 +8,11 @@ setup(name='collective.geo.bundle',
       long_description=open("README.rst").read() + "\n" +
                        open("HISTORY.rst").read(),
       classifiers=[
-        "Framework :: Plone",
-        "Topic :: Internet",
-        "Topic :: Scientific/Engineering :: GIS",
-        "Programming Language :: Python",
-        ],
+          "Framework :: Plone",
+          "Topic :: Internet",
+          "Topic :: Scientific/Engineering :: GIS",
+          "Programming Language :: Python",
+      ],
       keywords='Zope Plone GIS KML Google Maps Bing Yahoo OpenLayers',
       author='Giorgio Borelli',
       author_email='giorgio@giorgioborelli.it',

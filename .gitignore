@@ -18,11 +18,4 @@
 docs/doctrees/
 docs/html/
 .mr.developer.cfg
-src/collective.geo.contentlocations/
-src/collective.geo.geographer/
-src/collective.geo.kml/
-src/collective.geo.mapwidget/
-src/collective.geo.openlayers/
-src/collective.geo.settings/
-src/collective.geo.usersmap/
-src/collective.z3cform.colorpicker/
+extras
