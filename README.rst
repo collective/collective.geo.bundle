@@ -2,7 +2,7 @@ Introduction
 ============
 collective.geo allows to geo-reference Plone content types and to display this information over a map.
 
-collective.geo bundle is composed by the following packages:
+The core of collective geo is composed by the following packages:
 
 `collective.geo.geographer <http://plone.org/products/collective.geo.geographer>`_
     provides geo annotation for Plone. `(repository) <https://github.com/collective/collective.geo.geographer>`_
@@ -11,7 +11,7 @@ collective.geo bundle is composed by the following packages:
     enables openlayers machinery into Plone. `(repository) <https://github.com/collective/collective.geo.openlayers>`_
 
 `collective.geo.settings <http://plone.org/products/collective.geo.settings>`_
-    provides some utility to store settings of collective.geo packages. `(repository) <https://github.com/collective/collective.geo.settings>`_
+    provides some utilities where settings of collective.geo packages can be stored `(repository) <https://github.com/collective/collective.geo.settings>`_
 
 `collective.geo.mapwidget <http://plone.org/products/collective.geo.mapwidget>`_
     provides some handy page macros and adapters to easily manage multiple maps on one page. `(repository) <https://github.com/collective/collective.geo.mapwidget>`_
@@ -25,7 +25,7 @@ collective.geo bundle is composed by the following packages:
 
 To display the maps, **collective.geo** takes advantage of `Openlayers <http://www.openlayers.org>`_, a JavaScript library for displaying map data in web browsers, with no server-side dependencies.
 
-As a default map source we can select `OpenStreetMap <http://www.openstreetmap.org/>`_, `Google Maps <http://maps.google.com>`_, `Yahoo Maps <http://maps.yahoo.com/>`_ or `Bing Maps <http://www.bing.com/maps>`_.
+As a default map source we can select `OpenStreetMap <http://www.openstreetmap.org/>`_, `Google Maps <http://maps.google.com>`_ or `Bing Maps <http://www.bing.com/maps>`_.
 
 
 .. image:: http://plone.org/products/collective.geo/screenshot
@@ -52,7 +52,9 @@ Add collective.geo.bundle to your buildout's list of eggs such as::
         collective.geo.bundle
     ...
 
-and run the buildout. Start Zope, go to Site Setup -> Add-on Products in your Plone site and install the Plone Maps (collective.geo) product.
+and run the buildout.
+
+Start Zope, go to Site Setup -> Add-on Products in your Plone site and install the Plone Maps (collective.geo) product.
 
 Documentation
 -------------
@@ -65,7 +67,7 @@ package, please contribute.
 Bug Reports
 -----------
 
-* <https://github.com/collective/collective.geo.bundle/issues/>`_
+* `github tracker <https://github.com/collective/collective.geo.bundle/issues/>`_
 
 
 Mostly Harmless
