@@ -12,7 +12,7 @@ Changelog
 
 - Added buildout configuration
 - Refacrtorized package structure
- [giacomos]
+  [giacomos]
 
 
 
