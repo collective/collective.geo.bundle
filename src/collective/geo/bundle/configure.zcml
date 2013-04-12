@@ -4,8 +4,7 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="collective.geo.bundle">
 
-    <include package="collective.geo.contentlocations" />
-    <include package="collective.geo.kml" />
+    <includeDependencies package="." />
 
     <genericsetup:registerProfile
         name="default"
