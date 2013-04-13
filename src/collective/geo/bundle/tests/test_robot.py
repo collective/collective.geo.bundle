@@ -9,9 +9,9 @@ from plone.testing import layered
 
 def test_suite():
     suite = unittest.TestSuite()
-    suite.addTests([
-        layered(robotsuite.RobotTestSuite(
-            os.path.join("robotests", "hello.robot")),
-            layer=CGEO_BUNDLE_ROBOT),
-    ])
+    # suite.addTests([
+    #     layered(robotsuite.RobotTestSuite(
+    #         os.path.join("robotests", "hello.robot")),
+    #         layer=CGEO_BUNDLE_ROBOT),
+    # ])
     return suite
