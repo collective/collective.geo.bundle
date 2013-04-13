@@ -40,7 +40,6 @@ setup(
             'collective.geo.behaviour'
         ],
         "test": [
-            "lxml",
             "plone.app.testing",
             "plone.app.robotframework"
         ]
