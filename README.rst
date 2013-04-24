@@ -79,4 +79,4 @@ Metrics
     :target: http://travis-ci.org/collective/collective.geo.bundle
 
 .. image:: https://www.ohloh.net/p/collective_geo/widgets/project_partner_badge.gif
-    :target: https://www.ohloh.net/p/collective_geo>
+    :target: https://www.ohloh.net/p/collective_geo
