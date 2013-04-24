@@ -75,6 +75,8 @@ Contributors
 Metrics
 --------
 
-.. image:: https://www.ohloh.net/p/collective_geo/widgets/project_partner_badge.gif
+.. image:: https://secure.travis-ci.org/collective/collective.geo.bundle.png
+    :target: http://travis-ci.org/collective/collective.geo.bundle
 
-`collective.geo on Ohloh <https://www.ohloh.net/p/collective_geo>`_
+.. image:: https://www.ohloh.net/p/collective_geo/widgets/project_partner_badge.gif
+    :target: https://www.ohloh.net/p/collective_geo>
