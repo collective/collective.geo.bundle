@@ -4,19 +4,15 @@ Changelog
 0.2 (unreleased)
 ----------------
 
-- Added buildout configuration for Dexterity
-  [gborelli]
-
-- Fixed tests section in devel.cfg
-  [gborelli]
-
+- Added robotframework tests [gborelli]
+- Added Sphinx documentation [gborelli]
+- Added travis-ci configuration [gborelli]
 - Added extras_requires in setup.py to use g.ceo with Dexterity
   [gborelli]
 
 - Added buildout configuration
-
 - Refacrtorized package structure
- [giacomos]
+  [giacomos]
 
 
 

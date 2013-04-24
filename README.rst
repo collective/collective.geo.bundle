@@ -25,7 +25,7 @@ collective.geo bundle is composed by the following packages:
 
 To display the maps, **collective.geo** takes advantage of `Openlayers <http://www.openlayers.org>`_, a JavaScript library for displaying map data in web browsers, with no server-side dependencies.
 
-As a default map source we can select `OpenStreetMap <http://www.openstreetmap.org/>`_, `Google Maps <http://maps.google.com>`_ or `Bing Maps <http://www.bing.com/maps>`_.
+As a default map source we can select `OpenStreetMap <http://www.openstreetmap.org/>`_, `Google Maps <http://maps.google.com>`_, `Yahoo Maps <http://maps.yahoo.com/>`_ or `Bing Maps <http://www.bing.com/maps>`_.
 
 
 .. image:: http://plone.org/products/collective.geo/screenshot
@@ -71,13 +71,3 @@ Contributors
 * David Beitey - davidjb
 * Adam Tang - adam139
 * Christian Ledermann - cleder
-
-Metrics
---------
-
-.. image:: https://www.ohloh.net/p/collective_geo/widgets/project_partner_badge.gif
-
-`collective.geo on Ohloh <https://www.ohloh.net/p/collective_geo>`_
-
-
-
