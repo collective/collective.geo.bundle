@@ -24,6 +24,21 @@ and run the buildout.
 
 Start Zope, go to Site Setup -> Add-on Products in your Plone site and install the Plone Maps (collective.geo) product.
 
+Dexterity
+---------
+
+`Dexterity <http://plone.org/products/dexterity>`_ support on collective.geo is provided by collective.geo.behaviour.
+
+To include collective.geo.behaviour package when you install collective.geo, enable the "dexterity" extra::
+
+    [buildout]
+    ...
+    eggs =
+        collective.geo.bundle [dexterity]
+    ...
+
+
+
 Documentation
 -------------
 
