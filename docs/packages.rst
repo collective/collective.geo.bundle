@@ -95,7 +95,7 @@ Settings are split in two different interfaces:
 * IGeoFeatureStyle
 
 For more details see:
-`collective.geo.settings.interfaces <>`_
+`collective.geo.settings.interfaces <https://github.com/collective/collective.geo.settings/blob/master/collective/geo/settings/interfaces.py>`_
 
 You can retrieve settings by `plone.app.registry`_ API:
 
