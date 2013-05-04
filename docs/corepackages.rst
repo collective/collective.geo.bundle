@@ -4,8 +4,7 @@ Core Packages
 collective.geo.geographer
 -------------------------
 
-collective.geo.geographer has been documented on readthedocs.org: http://collectivegeogeographer.readthedocs.org/
-
+collective.geo.geographer has been documented on readthedocs.org: http://collectivegeo.readthedocs.org/projects/collectivegeogeographer/
 
 collective.geo.openlayers
 -------------------------
@@ -124,7 +123,7 @@ Coordinate field
 ^^^^^^^^^^^^^^^^
 
 collective.geo.settings defines a field type 'Coordinate'
-useful to store coordinate values in Zope Interface and use it in forms.
+useful to define a coordinate attribute in Zope Interface and use it in forms.
 
 You can define an interface in this way:
 
