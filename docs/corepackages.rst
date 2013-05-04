@@ -1,9 +1,5 @@
-Packages documentation
-======================
-
-.. toctree::
-    :maxdepth: 2
-
+Core Packages
+=============
 
 collective.geo.geographer
 -------------------------
@@ -16,10 +12,10 @@ collective.geo.openlayers
 
 This package includes `OpenLayers`_ framework in Plone.
 
-You can include an `Openlayers`_ map in a Plone page using a `BrowserView <http://developer.plone.org/views/browserviews.html>`_
+You can include an `Openlayers`_ map in a page using a `BrowserView <http://developer.plone.org/views/browserviews.html>`_
 or a `Page template <http://docs.zope.org/zope2/zope2book/ZPT.html>`_.
 
-There is a simple Plone integration example:
+There is a simple integration example:
 
 .. code-block:: html
 
@@ -85,14 +81,15 @@ For more informations about `OpenLayers`_ see:
 collective.geo.settings
 -----------------------
 
-This package provides some utilities to store settings of collective.geo packages.
+This package provides some utilities to store settings used in
+collective.geo packages.
 
 Settings are stored in Plone registry and they provide default values to map widgets.
 
-Settings are split in two different interfaces:
+They are split in two different interfaces:
 
-* IGeoSettings
-* IGeoFeatureStyle
+* IGeoSettings for map settings, like default map layers, center, zoom  etc.
+* IGeoFeatureStyle for map style like lines and polygon colors, marke image etc.
 
 For more details see:
 `collective.geo.settings.interfaces <https://github.com/collective/collective.geo.settings/blob/master/collective/geo/settings/interfaces.py>`_
@@ -145,11 +142,33 @@ You can define an interface in this way:
             required=True
         )
 
+collective.z3cform.mapwidget
+----------------------------
 
-.. we have registered a coordinate field in IGeoSettings, its store coordinate data as Decimal
+Example:
+
+.. code-block:: python
+
+    from zope.interface import Interface
+    from zope import schema
+
+    from z3c.form import form, field
+    from collective.z3cform.mapwidget.widget import MapFieldWidget
+
+
+    class IMyForm(Interface):
+        wkt = schema.Text(
+            title=u"Shape in WKT format"
+        )
+
+
+    class GeoShapeForm(form.Form):
+        fields = field.Fields(IMyManager)
+        fields['wkt'].widgetFactory = MapFieldWidget
+
+        ...
 
 .. * collective.geo.mapwdget
-.. * collective.z3cform.mapwidget
 .. * collective.geo.contentlocations
 .. * collective.geo.kml
 .. * collective.geo.behaviour

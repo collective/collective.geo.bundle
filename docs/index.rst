@@ -2,11 +2,13 @@ collective geo's documentation
 ==============================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    installation.rst
    howto.rst
-   packages.rst
+
+   corepackages.rst
+   otherpackages.rst
 
 
 .. include:: ../OVERVIEW.rst
