@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <metadata>
-  <version>0.2dev</version>
+  <version>0.2</version>
   <dependencies>
     <dependency>profile-collective.geo.contentlocations:default</dependency>
     <dependency>profile-collective.geo.kml:default</dependency>

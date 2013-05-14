@@ -1,0 +1,40 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="collective.geo.bundle">
+
+<!--     <genericsetup:upgradeSteps
+      source="*"
+      destination="0.2"
+      profile="collective.geo.bundle:default">
+
+      <genericsetup:upgradeStep
+        title="Upgrade collective.geo.settings"
+        source="*"
+        destination="2.5.1"
+        profile="collective.geo.settings:default"
+        handler="collective.geo.settings.setuphandlers.upgrade_registry"
+      />
+
+      <genericsetup:upgradeStep
+          title="Upgrade collective.geo.openlayers"
+          source="*"
+          destination="2.6"
+          profile="collective.geo.openlayers:default"
+          handler="collective.geo.openlayers.upgrades.upgrade_to_26"
+      />
+
+    </genericsetup:upgradeSteps>
+ -->
+
+   <genericsetup:upgradeStep
+    title="Upgrade collective.geo to 0.2"
+    description="collective.geo.bundle upgrade step"
+    source="*"
+    destination="0.2"
+    handler=".upgrades.upgrade_to_02"
+    profile="collective.geo.bundle:default" />
+
+</configure>
+

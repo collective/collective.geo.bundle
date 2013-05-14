@@ -6,6 +6,8 @@
 
     <includeDependencies package="." />
 
+    <include file="upgrades.zcml" />
+
     <genericsetup:registerProfile
         name="default"
         title="Plone Maps (collective.geo)"

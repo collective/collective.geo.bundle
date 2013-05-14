@@ -22,6 +22,14 @@ Add collective.geo.bundle to your buildout's list of eggs such as::
 
 and run the buildout. Start Zope, go to Site Setup -> Add-on Products in your Plone site and install the Plone Maps (collective.geo) product.
 
+Upgrade
+-------
+
+To upgrade collective.geo go to in the Plone Site Setup > Addon.
+
+When an upgrade is available a button will appear next to Plone Maps (collective.geo) product. Click the button to upgrade.
+
+
 Dexterity
 ---------
 
