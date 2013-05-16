@@ -18,10 +18,7 @@ script: bin/test-all
 after_script:
 - kill $JAVA_PID
 env:
-  - PLONE_VERSION=4.2
-  - PLONE_VERSION=4.3
   global:
-
   - secure: ! 'Y0f6zgSe+rahJAczZOxICxyNnNH6I4VbtcLOHH85EzHycrTI1IfuP4vqPuKC
       Ob7r+u2zvRLMA+B5XIneQvlz0OIZooshJDrmcwAy+zMNAvBP3nBnRV9HrdQk
       VFCQdDalXidLRarTUYouBd64x5dO/sYyWiGFULnIKQ7e1l2T4XI='
@@ -34,3 +31,5 @@ env:
   - ROBOT_BROWSER=firefox ROBOT_DESIRED_CAPABILITIES=tunnel-identifier:$TRAVIS_JOB_ID
   - ROBOT_BROWSER=chrome ROBOT_DESIRED_CAPABILITIES=tunnel-identifier:$TRAVIS_JOB_ID
   - ROBOT_BROWSER=ie ROBOT_DESIRED_CAPABILITIES=tunnel-identifier:$TRAVIS_JOB_ID,version:7
+- PLONE_VERSION=4.2
+- PLONE_VERSION=4.3
