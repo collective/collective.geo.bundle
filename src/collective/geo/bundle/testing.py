@@ -6,13 +6,13 @@ from plone.app.robotframework.testing import AUTOLOGIN_LIBRARY_FIXTURE
 import collective.geo.bundle
 
 
-CGEO_BUNDLE = PloneWithPackageLayer(
+CGEO = PloneWithPackageLayer(
     zcml_package=collective.geo.bundle,
     zcml_filename='testing.zcml',
     gs_profile_id='collective.geo.bundle:default',
-    name="CGEO_BUNDLE")
+    name="CGEO")
 
 
-CGEO_BUNDLE_ROBOT = FunctionalTesting(
-    bases=(AUTOLOGIN_LIBRARY_FIXTURE, CGEO_BUNDLE, z2.ZSERVER),
+CGEO_FUNCTIONAL_TESTING = FunctionalTesting(
+    bases=(AUTOLOGIN_LIBRARY_FIXTURE, CGEO, z2.ZSERVER),
     name="collective.geo.bundle:Robot")

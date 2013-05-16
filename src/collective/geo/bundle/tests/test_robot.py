@@ -3,15 +3,15 @@ import os.path
 import unittest
 
 import robotsuite
-from ..testing import CGEO_BUNDLE_ROBOT
+from ..testing import CGEO_FUNCTIONAL_TESTING
 from plone.testing import layered
 
 
 def test_suite():
     suite = unittest.TestSuite()
-    # suite.addTests([
-    #     layered(robotsuite.RobotTestSuite(
-    #         os.path.join("robotests", "hello.robot")),
-    #         layer=CGEO_BUNDLE_ROBOT),
-    # ])
+    suite.addTests([
+        layered(robotsuite.RobotTestSuite(
+            os.path.join("robotests", "control_panel.robot")),
+            layer=CGEO_FUNCTIONAL_TESTING),
+    ])
     return suite
