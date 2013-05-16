@@ -21,14 +21,13 @@ env:
   - PLONE_VERSION=4.2
   - PLONE_VERSION=4.3
   global:
-  - secure: |-
-      Y0f6zgSe+rahJAczZOxICxyNnNH6I4VbtcLOHH85EzHycrTI1IfuP4vqPuKC
+
+  - secure: ! 'Y0f6zgSe+rahJAczZOxICxyNnNH6I4VbtcLOHH85EzHycrTI1IfuP4vqPuKC
       Ob7r+u2zvRLMA+B5XIneQvlz0OIZooshJDrmcwAy+zMNAvBP3nBnRV9HrdQk
-      VFCQdDalXidLRarTUYouBd64x5dO/sYyWiGFULnIKQ7e1l2T4XI=
-  - secure: |-
-      LA8saPel//h3bu6yw7uQPpeCJz7GaS79fHx3FtodIZI7RWs/Zpb3BxlnfEp2
+      VFCQdDalXidLRarTUYouBd64x5dO/sYyWiGFULnIKQ7e1l2T4XI='
+  - secure: ! 'LA8saPel//h3bu6yw7uQPpeCJz7GaS79fHx3FtodIZI7RWs/Zpb3BxlnfEp2
       1D8dDClOSJWkcNE+pEXq5uVsC1RWo16OYx1wwrQyRiRKVByIYKJCcNOm14l/
-      P/Sa2LyJx+fI1By/AnXNCAwcuawVHLkySUc2DgZIxetHXrHzO8c=
+      P/Sa2LyJx+fI1By/AnXNCAwcuawVHLkySUc2DgZIxetHXrHzO8c='
   - ROBOT_BUILD_NUMBER=travis-$TRAVIS_BUILD_NUMBER
   - ROBOT_REMOTE_URL=http://$SAUCE_USERNAME:$SAUCE_ACCESS_KEY@ondemand.saucelabs.com:80/wd/hub
   matrix:
