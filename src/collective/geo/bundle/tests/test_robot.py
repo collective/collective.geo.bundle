@@ -14,4 +14,11 @@ def test_suite():
             os.path.join("robotests", "control_panel.robot")),
             layer=CGEO_FUNCTIONAL_TESTING),
     ])
+
+    suite.addTests([
+        layered(robotsuite.RobotTestSuite(
+            os.path.join("robotests", "geo_reference_page.robot")),
+            layer=CGEO_FUNCTIONAL_TESTING),
+    ])
+
     return suite
