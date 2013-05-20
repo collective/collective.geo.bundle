@@ -30,8 +30,8 @@ setup(
     install_requires=[
         'setuptools',
         'BeautifulSoup',
-        'collective.geo.contentlocations',
-        'collective.geo.kml',
+        'collective.geo.contentlocations > 2.5',
+        'collective.geo.kml > 2.5',
         # -*- Extra requirements: -*-
     ],
     extras_require={
