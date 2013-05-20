@@ -69,5 +69,9 @@ Metrics
 .. image:: https://secure.travis-ci.org/collective/collective.geo.bundle.png
     :target: http://travis-ci.org/collective/collective.geo.bundle
 
-.. image:: https://www.ohloh.net/p/collective_geo/widgets/project_partner_badge.gif
+.. image:: https://saucelabs.com/buildstatus/collectivegeo
+    :target: https://saucelabs.com/u/collectivegeo
+
+.. image:: https://www.ohloh.net/p/collective_geo/widgets/project_thin_badge.gif
     :target: https://www.ohloh.net/p/collective_geo
+
