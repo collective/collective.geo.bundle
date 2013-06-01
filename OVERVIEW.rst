@@ -17,6 +17,9 @@ The core of collective geo is composed by the following packages:
 `collective.geo.mapwidget <http://plone.org/products/collective.geo.mapwidget>`_
     provides some handy page macros and adapters to easily manage multiple maps on one page. `(repository) <https://github.com/collective/collective.geo.mapwidget>`__
 
+`collective.z3cform.mapwidget <http://plone.org/products/collective.z3cform.mapwidget>`_
+    provides a mapwidget for z3c.form framework. `(repository) <https://github.com/collective/collective.z3cform.mapwidget>`__
+
 `collective.geo.contentlocations <http://plone.org/products/collective.geo.contentlocations>`_
     provides a GUI for collective.geo.geographer. It provides some simple forms to add geographical coordinates to Plone content types. `(repository) <https://github.com/collective/collective.geo.contentlocations>`__
 

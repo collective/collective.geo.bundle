@@ -2,9 +2,8 @@ Requirements
 ------------
 
 * BeautifulSoup (geopy)
-* geopy
+* geopy >=0.95.pre
 * Plone >= 4.0
-* zope.schema = 3.6.0 (z3c.form requirement)
 * plone.app.z3cform
 * `collective.z3cform.colorpicker <http://plone.org/products/collective.z3cform.colorpicker>`_
 
@@ -27,7 +26,9 @@ Upgrade
 
 To upgrade collective.geo go to in the Plone Site Setup > Addon.
 
-When an upgrade is available a button will appear next to Plone Maps (collective.geo) product. Click the button to upgrade.
+When an upgrade is available a button will appear
+next to Plone Maps (collective.geo) product.
+Click the button to upgrade.
 
 
 Dexterity
@@ -63,6 +64,7 @@ Contributors
 * Adam Tang - adam139
 * Christian Ledermann - cleder
 
+
 Metrics
 --------
 
@@ -74,4 +76,3 @@ Metrics
 
 .. image:: https://www.ohloh.net/p/collective_geo/widgets/project_thin_badge.gif
     :target: https://www.ohloh.net/p/collective_geo
-
