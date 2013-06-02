@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '0.2dev'
+version = '2.0b1'
 
 setup(
     name='collective.geo.bundle',
