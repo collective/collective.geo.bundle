@@ -7,7 +7,7 @@ from collective.geo import contentlocations
 from collective.geo import kml
 
 
-def upgrade_to_02(context):
+def upgrade_to_2(context):
 
     # - collective.geo.settings
     # upgrade plone.app.registry
@@ -15,11 +15,11 @@ def upgrade_to_02(context):
 
     # - collective.geo.openlayers
     # upgrade jsregistry
-    openlayers.upgrades.upgrade_to_26(context)
+    openlayers.upgrades.upgrade_to_30(context)
 
     # - collective.geo.mapwidget
     # upgrade jsregistry and controlpanel
-    mapwidget.upgrades.upgrade_to_17(context)
+    mapwidget.upgrades.upgrade_to_20(context)
 
     # install collective.z3cform.colorpicker
     qi = getToolByName(context, 'portal_quickinstaller')
@@ -28,7 +28,7 @@ def upgrade_to_02(context):
 
     # - collective.geo.contentlocations
     # add browserlayer, upgrade actions and remove IGeoMarkerUtility
-    contentlocations.upgrades.upgrade_to_26(context)
+    contentlocations.upgrades.upgrade_to_30(context)
 
     # - collective.geo.kml
     # add views and configuraiton for new collections
