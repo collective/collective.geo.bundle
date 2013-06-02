@@ -5,21 +5,17 @@ Requirements
 * geopy >=0.95.pre
 * Plone >= 4.0
 * plone.app.z3cform
-* `collective.z3cform.colorpicker <http://plone.org/products/collective.z3cform.colorpicker>`_
+* `collective.z3cform.colorpicker <http://plone.org/products/collective.z3cform.colorpicker>`_ >= 1.1
 
 
 Installation
 ------------
 
-Add collective.geo.bundle to your buildout's list of eggs such as::
+This addon can be installed has any other addons, please follow official
+documentation_.
 
-    [buildout]
-    ...
-    eggs =
-        collective.geo.bundle
-    ...
+.. _documentation: http://plone.org/documentation/kb/installing-add-ons-quick-how-to
 
-and run the buildout. Start Zope, go to Site Setup -> Add-on Products in your Plone site and install the Plone Maps (collective.geo) product.
 
 Upgrade
 -------
@@ -43,7 +39,6 @@ To include collective.geo.behaviour package when you install collective.geo, ena
     eggs =
         collective.geo.bundle [dexterity]
     ...
-
 
 
 Documentation
