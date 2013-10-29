@@ -1,14 +1,9 @@
 Changelog
 =========
 
-2.0b2 (unreleased)
-------------------
 
-- Nothing changed yet.
-
-
-2.0b1 (2013-06-02)
-------------------
+2.0 (2013-10-29)
+----------------
 
 - Added robotframework tests [gborelli]
 - Added Sphinx documentation [gborelli]
