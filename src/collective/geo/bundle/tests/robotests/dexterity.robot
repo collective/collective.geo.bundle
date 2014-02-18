@@ -4,11 +4,13 @@ Test Teardown     Run keywords    Report test status    Close All Browsers
 Resource          keywords.robot
 Resource          plone/app/robotframework/saucelabs.robot
 
+
 *** Test Cases ***
-create document and georeference it
-    [Tags]    user
+
+Test dexterity content type
     Given I'm logged in as a 'Manager'
-    Set document georeferenceable    form.widgets.geo_content_types    Document
     Go to homepage
-    Add Document    georeferenced document
-    Page Should Contain Link    Coordinates
+    Create dexterity test content with geo behaviour  Test-content-with-behaviour
+    Click Link  link=Modify
+    Select Checkbox  id=form-widgets-ICoordinates-use_custom_styles-0
+    Click Button  Save

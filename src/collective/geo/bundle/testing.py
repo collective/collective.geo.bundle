@@ -9,7 +9,7 @@ import collective.geo.bundle
 CGEO = PloneWithPackageLayer(
     zcml_package=collective.geo.bundle,
     zcml_filename='testing.zcml',
-    gs_profile_id='collective.geo.bundle:default',
+    gs_profile_id='collective.geo.bundle:testing',
     name="CGEO")
 
 

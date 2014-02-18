@@ -8,6 +8,7 @@ ${ZOPE_PORT}      55001
 ${ZOPE_URL}       http://${ZOPE_HOST}:${ZOPE_PORT}
 ${PLONE_SITE_ID}    plone
 ${PLONE_URL}      ${ZOPE_URL}/${PLONE_SITE_ID}
+${BROWSER}     Chrome
 
 *** Keywords ***
 I'm logged in as a '${ROLE}'
@@ -21,7 +22,7 @@ I go to c.geo controlpanel
     Click link    ${PLONE_URL}/@@collectivegeo-controlpanel
     Element should become visible    css=#formfield-form-widgets-geo_content_types
 
-set document georeferenceable
+Set document georeferenceable
     [Arguments]    ${name}    ${element}
     Go to    ${PLONE_URL}/@@collectivegeo-controlpanel
     Wait until location is    ${PLONE_URL}/@@collectivegeo-controlpanel
@@ -30,3 +31,11 @@ set document georeferenceable
     List Selection Should Be    xpath=//select[@name="${name}.to"]    ${element}
     Click Button    Apply
     Check Status Message    Changes Saved
+
+Create dexterity test content with geo behaviour
+    [Arguments]  ${title}
+    Open Add New Menu
+    Click Link  link=dexterity content with geo behavior
+    Input text  name=form.widgets.IBasic.title  ${title}
+    Click Button  Save
+    Page Should Contain  Item created
