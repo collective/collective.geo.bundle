@@ -38,4 +38,4 @@ Create dexterity test content with geo behaviour
     Click Link  link=dexterity content with geo behavior
     Input text  name=form.widgets.IBasic.title  ${title}
     Click Button  Save
-    Page Should Contain  Item created
+    Check Status Message  Item created

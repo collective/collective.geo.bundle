@@ -26,6 +26,7 @@
  <property name="behaviors">
   <element value="plone.app.dexterity.behaviors.metadata.IBasic"/>
   <element value="collective.geo.behaviour.interfaces.ICoordinates" />
+  <element value="collective.geo.behaviour.interfaces.IGeoFeatureStyle" />
  </property>
  <property name="schema"></property>
  <property
