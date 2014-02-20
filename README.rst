@@ -2,9 +2,8 @@ Requirements
 ------------
 
 * BeautifulSoup (geopy)
-* geopy >=0.96.2
+* geopy >=0.98
 * Plone >= 4.1
-* plone.app.z3cform
 * `collective.z3cform.colorpicker <http://plone.org/products/collective.z3cform.colorpicker>`_ >= 1.1
 
 
