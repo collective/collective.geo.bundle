@@ -6,9 +6,10 @@ Resource          plone/app/robotframework/saucelabs.robot
 
 *** Test Cases ***
 create document and georeference it
-    [Tags]    user
+    [Tags]    user    archetypes
     Given I'm logged in as a 'Manager'
     Set document georeferenceable    form.widgets.geo_content_types    Document
     Go to homepage
     Add Document    georeferenced document
     Page Should Contain Link    Coordinates
+    Click link    link=Coordinates
