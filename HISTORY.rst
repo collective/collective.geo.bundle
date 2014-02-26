@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.1 (unreleased)
+2.1 (2014-02-26)
 ----------------
 
 - Moved robot test from c.geo.behaviour
