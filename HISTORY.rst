@@ -5,7 +5,7 @@ Changelog
 2.1 (unreleased)
 ----------------
 
-- moved robot test from c.geo.behaviour
+- Moved robot test from c.geo.behaviour
   [gborelli]
 
 
