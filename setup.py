@@ -30,7 +30,7 @@ setup(
     install_requires=[
         'setuptools',
         'BeautifulSoup',
-        'collective.geo.mapwidget >= 2.1.1',
+        'collective.geo.mapwidget >= 2.1.2',
         'collective.geo.contentlocations >= 3.1',
         'collective.geo.kml >= 3.2',
     ],
