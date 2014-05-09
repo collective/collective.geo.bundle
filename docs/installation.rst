@@ -14,7 +14,7 @@ Debian/Ubuntu
 On Linux systems based on Debian, you have to install the following packages:
 
 * libgeos-c1
-* libegos-dev
+* libgeos-dev
 
 Mac OS X
 ^^^^^^^^^
