@@ -5,7 +5,9 @@ Changelog
 2.2 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Updated version and year of collective.geo docs [macagua]
+- Added documentation about collective.geo.usersmap [macagua]
+- Added documentation about collective.geo.flexitopic [macagua]
 
 
 2.1 (2014-02-26)
