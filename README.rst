@@ -60,6 +60,7 @@ Contributors
 * David Beitey - davidjb
 * Adam Tang - adam139
 * Christian Ledermann - cleder
+* Leonardo J. Caballero G. - macagua
 
 
 Metrics
