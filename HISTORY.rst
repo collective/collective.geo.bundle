@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.2 (unreleased)
+2.2 (2014-08-16)
 ----------------
 
 - Updated c.geo.mapwidget to 2.1.3
