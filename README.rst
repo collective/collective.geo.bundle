@@ -6,8 +6,8 @@ Requirements
 * Plone >= 4.2
 * `collective.geo.contentlocations <http://plone.org/products/collective.geo.contentlocations>`_ >= 3.1
 * `collective.geo.kml <http://plone.org/products/collective.geo.kml>`_ >= 3.2
-* `collective.z3cform.colorpicker <http://plone.org/products/collective.z3cform.colorpicker>`_ >= 1.1
-* `collective.geo.behaviour <http://plone.org/products/collective.geo.behaviour>`_
+* `collective.z3cform.colorpicker <http://plone.org/products/collective.z3cform.colorpicker>`_ >= 1.2
+* `collective.geo.behaviour <http://plone.org/products/collective.geo.behaviour>`_ >= 1.2
 
 
 Installation
