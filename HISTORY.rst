@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.3 (unreleased)
+2.3 (2015-05-02)
 ----------------
 
 - Update requirements
