@@ -5,7 +5,11 @@ Changelog
 2.3 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Update requirements
+  [gborelli]
+
+- Remove c.geo.behavior as extra requires and include it as default
+  [gborelli]
 
 
 2.2 (2014-08-16)

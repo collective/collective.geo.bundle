@@ -7,6 +7,7 @@ Requirements
 * `collective.geo.contentlocations <http://plone.org/products/collective.geo.contentlocations>`_ >= 3.1
 * `collective.geo.kml <http://plone.org/products/collective.geo.kml>`_ >= 3.2
 * `collective.z3cform.colorpicker <http://plone.org/products/collective.z3cform.colorpicker>`_ >= 1.1
+* `collective.geo.behaviour <http://plone.org/products/collective.geo.behaviour>`_
 
 
 Installation
@@ -27,20 +28,6 @@ When an upgrade is available a button will appear
 next to Plone Maps (collective.geo) product.
 Click the button to upgrade.
 
-
-Dexterity
----------
-
-`Dexterity <http://plone.org/products/dexterity>`_ support on collective.geo is provided by `collective.geo.behaviour <http://plone.org/products/collective.geo.behaviour>`_
-
-
-To include collective.geo.behaviour package when you install collective.geo, enable the "dexterity" extra::
-
-    [buildout]
-    ...
-    eggs =
-        collective.geo.bundle [dexterity]
-    ...
 
 
 Documentation
