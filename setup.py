@@ -30,14 +30,15 @@ setup(
     install_requires=[
         'setuptools',
         'BeautifulSoup',
-        'collective.geo.mapwidget >= 2.1.3',
+        'collective.geo.mapwidget >= 2.2',
         'collective.geo.contentlocations >= 3.1',
         'collective.geo.kml >= 3.2',
+        'plone.app.dexterity',
+        'collective.geo.behaviour >= 1.2'
     ],
     extras_require={
         'dexterity': [
-            'plone.app.dexterity',
-            'collective.geo.behaviour >= 1.1'
+            # not used
         ],
         "test": [
             "plone.app.testing",
