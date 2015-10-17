@@ -33,7 +33,6 @@ setup(
         'collective.geo.mapwidget >= 2.2',
         'collective.geo.contentlocations >= 3.1',
         'collective.geo.kml >= 3.2',
-        'plone.app.dexterity',
         'collective.geo.behaviour >= 1.2'
     ],
     extras_require={
