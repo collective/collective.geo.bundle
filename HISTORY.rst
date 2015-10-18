@@ -5,8 +5,17 @@ Changelog
 2.4 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Switched all dependent packages to plone5 branch in sources
+  [pbauer]
 
+- Better development buildout (omelette, always-checkout)
+  [pbauer]
+
+- Updated buildout.py
+  [pbauer]
+
+- Updated buildout to polone5 and removed old pinned versions
+  [pbauer]
 
 2.3 (2015-05-02)
 ----------------
