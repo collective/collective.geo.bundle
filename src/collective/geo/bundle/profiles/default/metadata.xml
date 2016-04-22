@@ -2,7 +2,7 @@
 <metadata>
   <version>2</version>
   <dependencies>
-    <dependency>profile-collective.geo.contentlocations:default</dependency>
     <dependency>profile-collective.geo.kml:default</dependency>
+    <dependency>profile-collective.geo.behaviour:default</dependency>
   </dependencies>
 </metadata>

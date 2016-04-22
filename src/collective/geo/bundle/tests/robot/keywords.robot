@@ -17,7 +17,6 @@ I'm logged in as a '${ROLE}'
 
 I go to c.geo controlpanel
     Go to homepage
-    Click link    Manager
     Click link    Site Setup
     Click link    ${PLONE_URL}/@@collectivegeo-controlpanel
     Element should become visible    css=#formfield-form-widgets-geo_content_types
@@ -32,10 +31,21 @@ Set document georeferenceable
     Click Button    Apply
     Check Status Message    Changes Saved
 
-Create dexterity test content with geo behaviour
+Set dxdocument georeferenceable
+    Go to    ${PLONE_URL}/@@dexterity-types
+    Wait until location is    ${PLONE_URL}/@@dexterity-types
+    Click Link  link=Page
+    Click Link  link=Behaviors
+    Select checkbox  form-widgets-collective-geo-behaviour-interfaces-ICoordinates-0
+    Select checkbox  form-widgets-collective-geo-behaviour-interfaces-IGeoFeatureStyle-0
+    Click button  Save
+    Page should contain  Behaviors successfully updated
+
+Create dexterity document with geo behaviour
     [Arguments]  ${title}
-    Open Add New Menu
-    Click Link  link=dexterity content with geo behavior
+    DEBUG
+    Click element  css=.icon-plone-contentmenu-factories
+    Click Link  document
     Input text  name=form.widgets.IBasic.title  ${title}
     Click Button  Save
     Check Status Message  Item created

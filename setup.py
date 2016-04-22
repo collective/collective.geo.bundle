@@ -30,19 +30,16 @@ setup(
     install_requires=[
         'setuptools',
         'BeautifulSoup',
-        'collective.geo.mapwidget >= 2.2',
-        'collective.geo.contentlocations >= 3.1',
         'collective.geo.kml >= 3.2',
         'collective.geo.behaviour >= 1.2'
     ],
     extras_require={
-        'dexterity': [
-            # not used
+        'test': [
+            'plone.app.testing',
+            'plone.testing>=5.0.0',
+            'plone.app.contenttypes',
+            'plone.app.robotframework[debug]',
         ],
-        "test": [
-            "plone.app.testing",
-            "plone.app.robotframework"
-        ]
     },
     entry_points="""
     # -*- Entry points: -*-

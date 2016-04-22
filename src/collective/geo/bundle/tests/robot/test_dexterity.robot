@@ -8,8 +8,9 @@ Resource          plone/app/robotframework/saucelabs.robot
 Test dexterity content type
     [Tags]    dexterity
     Given I'm logged in as a 'Manager'
+    Set dxdocument georeferenceable
     Go to homepage
-    Create dexterity test content with geo behaviour    Test-content-with-behaviour
+    Create dexterity document with geo behaviour    Test-content-with-behaviour
     Click Link    link=Edit
     Click Link    link=Coordinates
     Select Checkbox    id=form-widgets-IGeoFeatureStyle-use_custom_styles-0

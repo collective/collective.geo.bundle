@@ -1,27 +1,28 @@
 # -*- coding: utf-8 -*-
-import os.path
-import unittest
-
-import robotsuite
-from ..testing import CGEO_FUNCTIONAL_TESTING
+from collective.geo.bundle.testing import COLLECTIVE_GEO_BUNDLE_ACCEPTANCE_TESTING  # noqa
+from plone.app.testing import ROBOT_TEST_LEVEL
 from plone.testing import layered
+
+import os
+import robotsuite
+import unittest
 
 
 def test_suite():
     suite = unittest.TestSuite()
-
-    suite.addTests([
-        layered(robotsuite.RobotTestSuite(
-            os.path.join("robotests", "control_panel.robot")),
-            layer=CGEO_FUNCTIONAL_TESTING),
-
-        layered(robotsuite.RobotTestSuite(
-            os.path.join("robotests", "geo_reference_page.robot")),
-            layer=CGEO_FUNCTIONAL_TESTING),
-
-        layered(robotsuite.RobotTestSuite(
-            os.path.join("robotests", "dexterity.robot")),
-            layer=CGEO_FUNCTIONAL_TESTING),
-    ])
-
+    current_dir = os.path.abspath(os.path.dirname(__file__))
+    robot_dir = os.path.join(current_dir, 'robot')
+    robot_tests = [
+        os.path.join('robot', doc) for doc in os.listdir(robot_dir)
+        if doc.endswith('.robot') and doc.startswith('test_')
+    ]
+    for robot_test in robot_tests:
+        robottestsuite = robotsuite.RobotTestSuite(robot_test)
+        robottestsuite.level = ROBOT_TEST_LEVEL
+        suite.addTests([
+            layered(
+                robottestsuite,
+                layer=COLLECTIVE_GEO_BUNDLE_ACCEPTANCE_TESTING
+            ),
+        ])
     return suite
